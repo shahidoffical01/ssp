@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image:url(rgba(0, 0, 0, 0.5),"/bird-1045954.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    width: 100%;
+    
+   
+}
+.container{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    position: relative;
+    
+}
+.navbar .navbar-logo{
+    border: none;
+    width: 215px;
+    padding: 10px;
+    border-radius: 30px;
+    background:rgba(22, 22, 22, 0.452);
+}
+.navbar .navbar-logo h5{
+    font-size: 25px;
+    color: skyblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: absolute;text-transform: uppercase;
+   
+}
+.navbar .navbar-logo h5:hover{
+    color: orangered;
+    transition: all ease-in-out 0.3s;
+
+}
+.navbar .navbar-logo h5 span{
+    color: orangered;
+}
+.navbar .navbar-logo h5 span:hover{
+    color:skyblue;
+    transition: all ease-in-out 0.3s;
+    
+}
+
+.navbar ul{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    background: rgba(22, 22, 22, 0.452);
+   
+}
+.navbar ul li  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 70px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar ul li .active{
+    padding-left: 20px;
+    color: skyblue;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color: skyblue;
+    transition: all ease-in-out 0.3s;
+}
+.navbar button{
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    background:rgba(22, 22, 22, 0.452);
+    color: aliceblue;
+    cursor: pointer;
+}
+.navbar button:hover{
+    background: skyblue;
+    color:orangered;
+    transition: all ease-in-out 0.3s;
+}
+/* navbar section ends here */
+/* hero section starts here */
+.hero-section{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.hero-section .main-hero{
+    border: 1px solid green;
+}
+.hero-section .main-hero h1{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(247, 0, 0);
+}
+.hero-section .main-hero p{
+    width: 50%;
+    font-size: 17px;
+    line-height: 1.2;
+    color: skyblue;
+}
